@@ -1,0 +1,24 @@
+
+When implementing greedy algorithms, you should pay attention to:
+
+1. safe move
+2. prove safety
+3. solve subproblem
+4. estimate running time
+
+For safe moves:
+1. Put max digit first
+2. Find first occurrence of the first character
+3. Cover leftmost point 
+4. Use item with maximum value per unit of weight 
+
+Optimization:
+1. Assume everything is somewhat sorted
+2. Which sort order is convenient?
+3. Greedy move can be faster after sorting 
+
+General Strategy
+1. understand the problem
+2. make a greedy choice
+3. prove that it is a safe move
+4. reduce problem to subproblem
